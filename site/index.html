@@ -1,10 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>David Chus Resturant</title>
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+
 </head>
+
 <body>
-    <h1>This is a test</h1>
+    <header>
+        <nav id="navbar-header" class="navbar navbar-expand-sm">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="float-left  d-none d-md-block">
+                        <div id="logo-img"></div>
+                    </a>
+                </div>
+                <div class="navbar-brand">
+                    <a href="index.html">
+                        <h1>David Chu's China Bistro</h1>
+                    </a>
+                    <p><img src="image/star-k-logo.png" alt="Kosher Certification">&nbsp;<span>Kosher Certified</span></p>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse-nav" aria-controls="collapse-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fa fa-navicon"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapse-nav">
+                    <ul id="nav-list" class="navbar-nav ml-auto">
+                        <li class="space">
+                            <a href="menupage.html"><i class="fa fa-cutlery"></i>
+                                <br> Menu
+                            </a>
+                        </li>
+
+                        <li class="space">
+                            <a href="#"><i class="fa fa-info-circle "></i><br /> About</a>
+                        </li>
+                        <li class="space">
+                            <a href="#"><i class="fa fa-certificate"></i><br /> Awards</a>
+                        </li>
+                        <li id="phone" class="space d-none d-md-block">
+                            <a href="tel:410-602-5008">
+                                <span>410-602-5008</span></a>
+                            <div id="we">* We Deliver</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="call-btn" class="d-md-none">
+        <a class="btn" href="tel:410-602-5008">
+            <span class="fa fa-phone"></span>
+            410-602-5008
+        </a>
+    </div>
+    <div id="xs-deliver" class="text-center d-md-none">* We Deliver</div>
+    
+    <!--  Main Content-->
+    <div id="main-content" class="container">
+         <div class="jumbotron">
+            <img src="image/jumbotron_768.jpg" alt="Picture of the restaurant" class="img-fluid d-block d-sm-none">
+         </div>
+         <div id="home-tiles" class="row">
+               
+                <!--  Menu -->
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="menupage.html"><div id="menu-tile"><span>menu</span></div></a>
+              </div>
+              
+              <!--  Specials -->
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="single-category.html"><div id="specials-tile"><span>specials</span></div></a>
+              </div>
+              
+              <!-- Maps-->
+              <div class="col-md-4 col-sm-12 col-xs-12">
+                <a href="https://www.google.com/maps/place/David+Chu's+China+Bistro/@39.3635874,-76.7138622,17z/data=!4m6!1m3!3m2!1s0x89c81a14e7817803:0xab20a0e99daa17ea!2sDavid+Chu's+China+Bistro!3m1!1s0x89c81a14e7817803:0xab20a0e99daa17ea" target="_blank">
+                  <div id="map-tile">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.675372390488!2d-76.71386218529199!3d39.3635874269356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81a14e7817803%3A0xab20a0e99daa17ea!2sDavid+Chu&#39;s+China+Bistro!5e0!3m2!1sen!2sus!4v1452824864156" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <span>map</span>
+                  </div>
+                </a>
+              </div>
+        </div><!-- End of #home-tiles -->
+    </div><!-- End of #main-content -->
+    
+    <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          Sun-Thurs: 11:15am - 10:00pm<br>
+          Fri: 11:15am - 2:30pm<br>
+          Saturday Closed
+          <hr class="d-block d-sm-none">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          7105 Reisterstown Road<br>
+          Baltimore, MD 21215
+          <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+          <hr class="d-block d-sm-none">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+          <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright David Chu's China Bistro 2016</div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/Bootstrap/bootstrap.min.js"></script>
+    <!-- Jquery -->
 </body>
+
 </html>
