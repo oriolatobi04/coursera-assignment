@@ -54,6 +54,7 @@ ul.navbar-nav a:focus{
     border-bottom: 2px solid #6E7A93;
 }
 .paragraph{
+    margin-top: 18px;
     background: #d5d5d5;
 }
 @media (min-width:1200px){
