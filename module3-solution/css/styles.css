@@ -1,0 +1,74 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #f7f7f7;
+}
+
+#navbar-header{
+    background: #6E7A93;
+}
+#navbar-header a.navbar-brand{
+    font-size: 29px;
+    color: #fff;
+    
+    font-family: 'Lora';
+}
+#navbar-header a.navbar-brand:hover{
+    color: #d5d5d5;
+    -webkit-transition: 100ms linear;
+    transition: 100ms linear;
+}
+#navbar-header i.fa{
+    color: #fff;
+}
+#navbar-header i.fa:hover,
+#navbar-header i.fa:focus{
+    color: #d5d5d5;
+}
+button{
+    outline: none !important;
+}
+ul.navbar-nav{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+ul.navbar-nav a{
+    color: #fff;
+    display: inline-block;
+    -webkit-transition: 200ms ease-in-out;
+    transition: 200ms ease-in-out;
+    font-family: 'Roboto';
+    font-size: 19px;
+}
+ul.navbar-nav a:hover,
+ul.navbar-nav a:focus{
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.header-element{
+    margin-top: 40px;
+}
+.header-element h2{
+    color: #6E7A93;
+    display: inline-block;
+    border-bottom: 2px solid #6E7A93;
+}
+.paragraph{
+    background: #d5d5d5;
+}
+@media (min-width:1200px){
+    div ul.navbar-nav{
+    margin-right: 90px;
+}
+    #navbar-header a.navbar-brand{
+        margin-left: 90px;
+    }
+}
+@media (min-width:991px) and (max-width:1199px){
+    div ul.navbar-nav{
+    margin-right: 50px;
+}
+    #navbar-header a.navbar-brand{
+        margin-left: 60px;
+    }
+}
