@@ -1,0 +1,65 @@
+body{
+    background: red;
+    max-height: 10%;
+    position: relative;
+}
+#resize{
+    position: absolute;
+    top: 250px;
+    background: #fff;
+    min-height: 330px;
+    position: relative;
+    max-width: 100%;
+}
+#img{
+    position: absolute;
+    top: -30%;
+    text-align: center;
+    left: 33%;
+}
+#header h1{
+    -webkit-transform: translateY(300%);
+    transform: translateY(250%);
+    color: #fff;
+    font-size: 47px;
+}
+#form{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+button.btn{
+    font-size: 26px;
+    width: 170px;
+}
+@media (min-width: 300px) and (max-width:325px) {
+    #img{
+        left: 23%;
+    }
+    #header h1{
+    -webkit-transform: translateY(300%);
+    transform: translateY(300%);
+    color: #fff;
+    font-size: 38px;
+}
+    button.btn{
+    font-size: 20px;
+    width: 130px;
+}
+}
+@media (min-width: 330px) and (max-width:438px) {
+    #img{
+        left: 27%;
+    }
+}
+@media (min-width: 439px) and (max-width:468px) {
+    #img{
+        left: 27%;
+    }
+}
+
+@media (min-width: 582px) and (max-width:991px) {
+    #img{
+        left: 38%;
+    }
+}
+
